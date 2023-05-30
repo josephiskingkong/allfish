@@ -1,0 +1,7 @@
+{
+    "name": "pr1nc3/facebook",
+    "require": {
+        "telegram-bot/api": "^2.3",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
