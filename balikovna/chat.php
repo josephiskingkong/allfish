@@ -1,6 +1,6 @@
 <?php
 $id = $_GET["orderid"];
-echo '<img src="/images/chat.png" alt="" id="open-chat-button">
+echo '<img src="/balikovna/images/chat.png" alt="" id="open-chat-button">
 <div class="chat-menu-section hidden" id="chat-section">
   <div class="chat-header">
     <div class="chat-info">

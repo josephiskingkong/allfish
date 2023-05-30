@@ -108,6 +108,7 @@ $id = $_POST['orderid'];
 $linkconn = link_db_connect();
 $conn = db_connect();
 $userconn = user_db_connect();
+$messages = array();
 $messages = get_messages($id, $conn);
 if (count($messages) == 0) {
   echo '[]';

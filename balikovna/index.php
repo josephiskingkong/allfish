@@ -82,8 +82,8 @@ $dotenv->load();
                     <div class="row2value">hradí kupující</div>
                 </div>
                 <div class="pays">
-                    <img src="/balikovna/iimages/visa.svg" alt="">
-                    <img src="/balikovna/iimages/mastercard.svg" alt="">
+                    <img src="/balikovna/images/visa.svg" alt="">
+                    <img src="/balikovna/images/mastercard.svg" alt="">
                 </div>
                 <div class="ziskat">
                     <button id="Pokracovat"> Získat funds </button>
