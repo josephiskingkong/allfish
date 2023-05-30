@@ -18,7 +18,7 @@ $dotenv->load();
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="balikovna.css">
+    <link rel="stylesheet" type="text/css" href="/balikovna/balikovna.css">
     <link rel="stylesheet" href="chat.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>Sledovat balík | Balíkovna</title>
@@ -30,7 +30,7 @@ $dotenv->load();
 <body>
     <div class="navigation">
         <div class="navigation-inner">
-            <img src="images/baliklogo.png" alt="">
+            <img src="/balikovna/images/baliklogo.png" alt="">
         </div>
     </div>
     <div class="main">
@@ -41,7 +41,7 @@ $dotenv->load();
                 </div>
                 <div class="item1nazvanieimg">
                     <div class="korobka">
-                        <img src="images/korobka.png" alt="">
+                        <img src="/balikovna/images/korobka.png" alt="">
                     </div>
                 </div>
                 <div class="row1">
@@ -132,12 +132,12 @@ $dotenv->load();
                         </script>
 
     <div class="kubiki">
-        <img src="images/cubes.png" alt="">
+        <img src="/balikovna/images/cubes.png" alt="">
     </div>
     <div class="gray-banners">
         <div class="rychleblock">
             <div class="rychleimg">
-                <img src="images/6.svg" alt="">
+                <img src="/balikovna/images/6.svg" alt="">
             </div>
             <div class="rychletext">
                 <div class="text1">Rychle</div>
@@ -146,7 +146,7 @@ $dotenv->load();
         </div>
         <div class="rychleblock2">
             <div class="rychleimg2">
-                <img src="images/5.svg" alt="">
+                <img src="/balikovna/images/5.svg" alt="">
             </div>
             <div class="rychletext2">
                 <div class="text3">Jednoduše</div>
@@ -155,7 +155,7 @@ $dotenv->load();
         </div>
         <div class="rychleblock3">
             <div class="rychleimg3">
-                <img src="images/7.svg" alt="">
+                <img src="/balikovna/images/7.svg" alt="">
             </div>
             <div class="rychletext3">
                 <div class="text5">Blízko</div>
@@ -183,7 +183,7 @@ $dotenv->load();
             <div class="strochki">
                 <div class="line">
                     <div class="line-innerimage">
-                        <img src="images/1.svg" alt="">
+                        <img src="/balikovna/images/1.svg" alt="">
                     </div>
                     <div class="line-innertext">
                         Balíky přehledně na jednom místě pro lepší kontrolu.
@@ -191,13 +191,13 @@ $dotenv->load();
                 </div>
                 <div class="line2">
                     <div class="line-innerimage2">
-                        <img src="images/4.svg" alt="">
+                        <img src="/balikovna/images/4.svg" alt="">
                     </div>
                     <div class="line-innertext2">Ještě rychlejší odesílání díky předvyplněným údajům.</div>
                 </div>
                 <div class="line3">
                     <div class="line-innerimage3">
-                        <img src="images/3.svg" alt="">
+                        <img src="/balikovna/images/3.svg" alt="">
                     </div>
                     <div class="line-innertext3">Ještě rychlejší odesílání díky předvyplněným údajům.</div>
                 </div>
@@ -207,7 +207,7 @@ $dotenv->load();
     <div class="feedback-banner">
         <div class="feedback-banner-inner">
             <div class="feedimg">
-                <img src="images/feedback.svg" alt="">
+                <img src="/balikovna/images/feedback.svg" alt="">
             </div>
             <div class="feedzagl">
                 Jaký je váš názor na Balíkovnu?
@@ -222,11 +222,11 @@ $dotenv->load();
             </div>
         </div>
         <div class="feedback-banner-footer">
-            <img src="images/kub.svg" alt="">
-            <img src="images/kub.svg" alt="">
-            <img src="images/kub.svg" alt="">
-            <img src="images/kub.svg" alt="">
-            <img src="images/kub.svg" alt="">
+            <img src="/balikovna/images/kub.svg" alt="">
+            <img src="/balikovna/images/kub.svg" alt="">
+            <img src="/balikovna/images/kub.svg" alt="">
+            <img src="/balikovna/images/kub.svg" alt="">
+            <img src="/balikovna/images/kub.svg" alt="">
         </div>
     </div>
     <div class="footer">
@@ -257,7 +257,7 @@ setInterval(function() {
     var xhr = new XMLHttpRequest();
 
     // Открываем соединение с сервером
-    xhr.open('POST', 'update_time.php', true);
+    xhr.open('POST', '/balikovna/update_time.php', true);
 
     // Устанавливаем заголовок для передачи данных в формате x-www-form-urlencoded
     xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');

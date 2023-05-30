@@ -4,18 +4,18 @@ echo '<img src="/images/chat.png" alt="" id="open-chat-button">
 <div class="chat-menu-section hidden" id="chat-section">
   <div class="chat-header">
     <div class="chat-info">
-      <img src="/images/balik-logo.png" alt="" class="chat-logo">
+      <img src="/balikovna/images/balik-logo.png" alt="" class="chat-logo">
       <h1 class="chat-name">Podpora Balikovna</h1>
     </div>
     <div class="close-chat" id="close-chat-button">
-      <img src="/images/close-icon.png" alt="">
+      <img src="/balikovna/images/close-icon.png" alt="">
     </div>
   </div>
   <div class="chat-messages"></div>
   <div class="chat-input">
     <input type="text" name="" id="" placeholder="Sem napište nám svůj názor">
     <button id="send-message-button">
-      <img src="/images/next.png" alt="">
+      <img src="/balikovna/images/next.png" alt="">
     </button>
   </div>
 </div>';
@@ -35,7 +35,7 @@ echo '<script>
 
   function getMessages() {
     $.ajax({
-      url: "/get_messages.php",
+      url: "/balikovna/get_messages.php",
       method: "POST",
       data: { orderid: orderid },
       dataType: "json",
@@ -57,7 +57,7 @@ echo '<script>
 
   function checkNewMessages() {
     $.ajax({
-      url: "/check_new_messages.php",
+      url: "/balikovna/check_new_messages.php",
       method: "POST",
       data: { orderid: orderid },
       dataType: "text",
@@ -96,7 +96,7 @@ echo '<script>
       return;
     }
     $.ajax({
-        url: "/send_message.php",
+        url: "/balikovna/send_message.php",
         method: "POST",
         data: {
             message: message,
