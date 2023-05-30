@@ -19,7 +19,7 @@ $dotenv->load();
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/balikovna/balikovna.css">
-    <link rel="stylesheet" href="chat.css">
+    <link rel="stylesheet" href="/balikovna/chat.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>Sledovat balík | Balíkovna</title>
 </head>
